@@ -1,4 +1,4 @@
-//  ODIwMTEyNTg5ODIzODAzMzkz.YEwbXg.B5_HoHDnIfuIpk8kBR1TQMbpQew
+//  token here
 const Discord = require('discord.js')
 const bot = new Discord.Client();
 
@@ -71,4 +71,4 @@ bot.on('guildMemberAdd', (member) => {
 
 
 
-bot.login("ODIwMTEyNTg5ODIzODAzMzkz.YEwbXg.B5_HoHDnIfuIpk8kBR1TQMbpQew")
+bot.login("token")
