@@ -1,6 +1,4 @@
-//https://github.com/DevCyrus/Thonker/tree/main
-
-
+//https://github.com/DevCyrus/Thonker
 const {MessageEmbed, User} = require('discord.js');
 
 module.exports = {
@@ -10,7 +8,7 @@ module.exports = {
         const embed = new MessageEmbed()
         .setAuthor(`Command Ran By: ${message.author.username}`)
         .setColor("RANDOM")
-        .setDescription(`Github Repository Link ➯ <https://github.com/DevCyrus/Thonker/tree/main>`)
+        .setDescription(`Github Repository Link ➯ https://github.com/DevCyrus/Thonker`)
         .setFooter("Github Made VIA Cyrus#0550")
     
             message.channel.send(embed)
